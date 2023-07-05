@@ -1,0 +1,39 @@
+*{
+    background-color: aliceblue;
+}
+
+#image{max-width:100%;
+    height:auto;
+    margin:auto;
+    }
+img{
+      display:block;
+      border: solid black 2px;
+}
+#img-div{
+    
+    
+    margin: 20px auto;
+    
+}
+#img-caption{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#tribute-info{
+    margin:auto 80px auto 80px;
+ font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+    
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200px;
+}
+footer{
+    margin: 20px 0px 50px 70px;
+    font-size: 18px;
+}
