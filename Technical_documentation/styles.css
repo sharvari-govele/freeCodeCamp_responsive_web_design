@@ -1,0 +1,88 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+main{
+    overflow: auto;
+}
+.content{
+    width: auto;
+    height: 200px;
+    z-index: 3;
+    margin: 0;    }
+.info{
+    width: auto;
+    display: block;
+    position: absolute;
+    top: 200px;
+    margin: 0;
+    
+    }
+nav{
+    height: 200px;
+    overflow-y: scroll; 
+    }
+@media (min-width: 660px) {
+   .content {
+            width: 350px;
+            float: left;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            }
+    .info {
+            top: 0;
+            margin-left: 355px;
+            width: auto;
+        }
+    nav{
+            height: 100vh;
+        }
+    }
+
+section{
+    display: block;
+    margin: 25px 2px;
+    padding: 2px;
+}
+.nav-link{
+    display: block;
+    height: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 2px 5px;
+    padding: 2px;
+    color: black;
+    
+    
+}
+#c{
+    position: sticky;
+    top:0;
+    margin: auto;
+    height: 50px;
+    background-color: rgb(139, 139, 190);
+    text-align: center;
+    font-size: 40px;
+       
+}
+header{
+    font-size: 30px;
+    font-weight: 30px;
+    margin-left: 10px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+li, p{line-height: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+code{
+    
+    line-height: 20px;
+    font-size: 15px;
+    
+}
+pre{
+    background-color: silver;
+}
