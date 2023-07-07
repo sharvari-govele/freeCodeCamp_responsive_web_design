@@ -42,36 +42,43 @@ nav{
 
 section{
     display: block;
-    margin: 25px 2px;
-    padding: 2px;
+    margin: 0;
+    padding: 5px 5px;
 }
 .nav-link{
     display: block;
     height: 50px;
     font-size: 25px;
     text-decoration: none;
-    margin: 2px 5px;
-    padding: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
     color: black;
     
     
+}
+.nav-link:hover{
+    background-color:rgb(205, 205, 240) ;
 }
 #c{
     position: sticky;
     top:0;
     margin: auto;
     height: 50px;
-    background-color: rgb(139, 139, 190);
+    background-color: rgb(38, 38, 120);
     text-align: center;
     font-size: 40px;
+    color: white;
+    padding: auto;
        
 }
 header{
     font-size: 30px;
     font-weight: 30px;
-    margin-left: 10px;
+    padding-left: 10px;
     line-height: 50px;
     margin-bottom: 20px;
+    margin-right: auto;
+   background-color: rgb(205, 205, 240);
 }
 li, p{line-height: 30px;
     font-size: 20px;
